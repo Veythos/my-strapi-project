@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "streamer_profiles",
+  "info": {
+    "singularName": "streamer-profile",
+    "pluralName": "streamer-profiles",
+    "displayName": "StreamerProfile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "bio": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "psID": {
+      "type": "string"
+    },
+    "userProfile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Durl": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recorded_streams",
+  "info": {
+    "singularName": "recorded-stream",
+    "pluralName": "recorded-streams",
+    "displayName": "recorded-stream",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "date": {
+      "type": "date"
+    },
+    "views": {
+      "type": "biginteger"
+    },
+    "streamUrl": {
+      "type": "string"
+    },
+    "listID": {
+      "type": "biginteger"
+    }
+  }
+}
